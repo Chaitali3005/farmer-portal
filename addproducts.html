@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="loginpage.css">
+  </head>
+  <body>
+    <div id="div" class="wrapper">
+      <h1>Farmer Portal</h1>
+
+      <form name="myform" action="mainpage.html" method="post" onsubmit="return valemail();">
+        <div class="form-group">
+        <input id="pname" class="textbox" type="text" name="pname" placeholder="product name" required>
+
+        <input id=price" class="textbox" type="number" name="price" placeholder="price" required>
+
+        <input list="category" name="category" class="textbox form-control-md" placeholder="category">
+        <datalist id="category">
+          <option value="vegetables">
+          <option value="fruits">
+          <option value="dry fruits">
+          <option value="spices">
+          <option value="pulses">
+          <option value="dairy products">
+          <option value="grain wheat cereals">
+          <option value="Seeds oil">
+          <option value="coffe and tea">
+          <option value="other">
+        </datalist>
+        <label for="img" class="textbox">Image:</label>
+
+        <input type="file" onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])" style="margin-top:10px">
+        <img id="blah" alt="" width="100%" height=""/>
+        <input id="quantity" class="textbox" type="text" name="quantity" placeholder="minimum quantity" required>
+        <input id="location" class="textbox" type="text" name="location" placeholder="location" required>
+        <button id="btn" class="btn btn-primary" type="submit" name="button">Add Product</button>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>

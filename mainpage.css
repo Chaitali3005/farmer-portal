@@ -1,0 +1,19 @@
+body{
+  /* background: #73f211; */
+}
+h1{
+  color: white;
+}
+p{
+  color: black;
+  text-align: center;
+}
+table{
+  margin-left: 10px;
+}
+#td{
+  margin-left: 100px;
+}
+#rows:hover{
+  transform: scale(1.05);
+}

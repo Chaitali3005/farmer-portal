@@ -1,0 +1,54 @@
+body{
+  background-image: url('https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg');
+  color:gray;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  color: black;
+}
+.wrapper{
+  background-color: #fff;
+  width:22%;
+  margin: 1% auto;
+  padding: 1rem 3rem;
+}
+.form{
+  padding-top: 2rem;
+}
+.textbox{
+  width: 100%;
+  margin-top: 2%;
+  padding: 12px 4px;
+  color: gray;
+}
+.btn{
+  width: 102%;
+  padding: 10px 4px;
+  margin-top: 3%;
+  border-radius: 5px;
+  background-color: #C4E0FB;
+  color: #fff;
+}
+.forgot{
+  text-align: center;
+  padding-top: 3%;
+}
+.wrapper2{
+  background-color: #fff;
+  width:22%;
+  margin: auto;
+  padding: 0.6rem 3rem;
+}
+.signup{
+  color: #3A98F0;
+  font-weight: bold;
+}
+.login{
+  color: #3A98F0;
+  font-weight: bold;
+}
+#signup{
+  text-align: center;
+}
